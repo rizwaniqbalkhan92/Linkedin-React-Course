@@ -6,6 +6,7 @@ import Form from './Components/FormValidation/Form';
 import DogImage from './Components/DogImage/DogImage';
 import ScoreCounter from './Components/ScoreCounter/ScoreCounter';
 import WindowEvents from './Components/WindowsEvents/WindowEvents';
+import ColorPickerComponet from './Components/ColorPicker/ColorPickerComponet';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Form/> */}
       {/* <DogImage/> */}
       {/* <ScoreCounter/> */}
-    <WindowEvents/>
+      {/* <WindowEvents/> */}
+      <ColorPickerComponet />
     </div>
   );
 }
