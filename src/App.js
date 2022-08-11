@@ -4,6 +4,7 @@ import ColorComponent from './Components/ColorRenderer/ColorComponent';
 import DarkMode from './Components/DarkMode/DarkMode';
 import Form from './Components/FormValidation/Form';
 import DogImage from './Components/DogImage/DogImage';
+import ScoreCounter from './Components/ScoreCounter/ScoreCounter';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ColorComponent /> */}
       {/* <DarkMode/> */}
       {/* <Form/> */}
-      <DogImage/>
+      {/* <DogImage/> */}
+      <ScoreCounter/>
     </div>
   );
 }
