@@ -7,6 +7,8 @@ import DogImage from './Components/DogImage/DogImage';
 import ScoreCounter from './Components/ScoreCounter/ScoreCounter';
 import WindowEvents from './Components/WindowsEvents/WindowEvents';
 import ColorPickerComponet from './Components/ColorPicker/ColorPickerComponet';
+import PixelArt from './Components/PixelArts/PixelArt';
+import Picker from './Components/PixelArts/Picker';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <DogImage/> */}
       {/* <ScoreCounter/> */}
       {/* <WindowEvents/> */}
-      <ColorPickerComponet />
+      {/* <ColorPickerComponet /> */}
+      <PixelArt/>
+      {/* <Picker/> */}
     </div>
   );
 }
